@@ -1,0 +1,25 @@
+.container {
+  background-color: #0f172a;
+  color: #f8fafc;
+  height: 100vh;
+  background-size: cover;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.image {
+  width: 150px;
+}
+.heading {
+  font-size: 25px;
+}
+@media (min-width: "768px") {
+  .image {
+    width: 300px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
